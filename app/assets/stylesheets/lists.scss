@@ -1,0 +1,75 @@
+.header {
+  padding: 0 60px;
+  height: 95px;
+  &__box {
+    width: 100%;
+    min-height: 80px;
+    margin: 0 auto;
+    padding: 15px 0 0 0;
+    &__center {
+      height: 40px;
+      text-align: center;
+      font-size: 40px;
+    }
+    &__under {
+      float:right;
+      .account-box {
+        display: flex;
+        list-style: none;
+        .list__login {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+.main {
+  width: 100vw;
+  height: calc(100vh - 80px);
+  // display: flex;
+  padding: 0 60px;
+  &__left {
+    height: 100%;
+    // width: 50%;
+    // background-color: blue;
+    .category {
+      height: 100%;
+      width: 100%;
+      background-color: blue;
+      &__top {
+        font-size: 30px;
+      }
+      &__boxs {
+        display: flex;
+        flex-wrap: wrap;
+        &__content {
+          height: 250px;
+          width: 25%;
+          // background-color: brown;
+          &__box {
+            height: 240px;
+            width: 250px;
+            background-color: cyan;
+            .check {
+              text-align: center;
+              padding-top: 10px;
+            }
+            .person {
+              // height: 80px;
+              width: 250px;
+              background-color: darksalmon;
+              &__list{
+                list-style: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // &__right {
+  //   height: 100%;
+  //   width: 50%;
+  //   background-color: blue;
+  // } 
+}
