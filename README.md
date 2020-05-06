@@ -14,7 +14,7 @@
 ## listsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|text|text|null: false|
+|list|text|null: false|
 |user_id|integer|null: false, foreign_key: true|
 ### Association
 - belongs_to :user
@@ -23,7 +23,7 @@
 ## commentsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|text|text|null: false|
+|comment|text|null: false|
 |user_id|integer|null: false, foreign_key: true|
 |list_id|integer|null: false, foreign_key: true|
 ### Association
