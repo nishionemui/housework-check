@@ -5,9 +5,11 @@
     .header__box__under
       %ul.account-box
         %li.list__login
-          ログイン
+          = link_to edit_user_path(current_user) do
+            変更
         %li.list__category
-          新規登録
+          = link_to new_user_registration_path do
+            新規登録
         -# -if user_signed_in?
         -#   %li.list__mypage
         -#     = link_to "マイページ",user_path(current_user.id), class:"btn",id: "hover-c"

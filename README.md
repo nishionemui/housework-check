@@ -5,7 +5,7 @@
 |------|----|-------|
 |email|string|null: false|
 |password|string|null: false|
-|user_name|string|null: false|
+|name|string|null: false|
 ### Association
 - has_many :lists
 - has_many :comments
